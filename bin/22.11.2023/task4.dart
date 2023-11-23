@@ -32,7 +32,7 @@ void main() {
   print(getData);
 }
 
-class Profession {
+class Profession{
   late String type;
   late double salary;
   late List<String> companyBranches;
@@ -52,12 +52,7 @@ class Profession {
     return map;
   }
 
-  /// Zerikib kettimmmmmm
-  ///
-  /// yangi narsa otmayabmiz
-
   @override
-  ///the song by jaloliddin ahmadaliyev called "Toyingizga bormayman"
   String toString() {
     return 'Profession{type: $type, salary: $salary, companyBranches: $companyBranches}';
   }
