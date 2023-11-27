@@ -26,10 +26,6 @@ void main() {
   Person a = Person.fromJson(map);
   print("object:");
   print(a);
-
-  String getData = jsonEncode(a.toJson());
-  print("json:");
-  print(getData);
 }
 
 class Profession{
